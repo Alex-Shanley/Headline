@@ -1113,6 +1113,8 @@ margin: 30px 0;
   align-items: center;
   min-height: 70vh; 
   margin-top: 50px;
+  flex-direction: column;
+  text-align: center;
 }
 
 
@@ -1138,6 +1140,8 @@ margin: 30px 0;
   justify-content: center; 
   gap: 80px; 
   max-width: 65%;
+  
+  text-align: left;
 }
 
 .about-us .box.reverse{
@@ -1146,18 +1150,50 @@ margin: 30px 0;
 
 .about-image {
   width: 600px;
+  max-width: 100%;
   
 }
 
 
-
-
-.about-image img{
-  background-attachment: fixed;
-}
-
 .about-content p{
   color: #9D9D9D;
+  max-width: 600px;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .about-us .box{
+    flex-wrap: wrap;
+  }
+
+  .about-content p {
+    font-size: 14px;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .about-us .box{
+    flex-wrap: wrap;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .about-us h1 {
+    font-size: 24px;
+  }
+  .about-us .box{
+    flex-wrap: wrap;
+  }
+  .about-image {
+    max-width: 300px;
+  }
+  .about-content p {
+    font-size: 12px;
+  }
 }
 
 .Eye{
