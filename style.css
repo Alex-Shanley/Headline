@@ -343,6 +343,13 @@ nav .sidebar {
     padding-left: 30px; 
 }
 
+
+.image-style {
+  width: 275px;
+  height: 275px;
+  border-radius: 8px;
+}
+
 .section-divider hr {
     border: none;
     height: 2px;
