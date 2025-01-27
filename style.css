@@ -343,12 +343,12 @@ nav .sidebar {
     padding-left: 30px; 
 }
 
+ .image-style {
+    width: 275px;
+    height: 275px;
+    border-radius: 8px;
+  }
 
-.image-style {
-  width: 275px;
-  height: 275px;
-  border-radius: 8px;
-}
 
 .section-divider hr {
     border: none;
@@ -396,17 +396,18 @@ nav .sidebar {
   }
 
   .image-style{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
 
   .play-icon i{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
-
+ 
   .trending {
-    gap: 1.9rem;
+    gap: 1.9rem; 
+    
   }
 
   .section-divider hr {
@@ -1183,7 +1184,7 @@ margin: 30px 0;
   }
 
   .about-content p {
-    font-size: 16px;
+    font-size: 1px;
   }
 }
 
@@ -1211,6 +1212,7 @@ margin: 30px 0;
     font-size: 16px;
   }
 }
+
 
 .Eye{
   color: #24ABCF;
@@ -1244,7 +1246,7 @@ margin: 30px 0;
 .questions {
   position: relative;
   margin: 0 auto;
-  margin-top: 5rem;
+  
   width: 100%;
   display: flex;
   min-height: 70vh;
@@ -1253,6 +1255,26 @@ margin: 30px 0;
   overflow: hidden;
   border-radius: 0px;
   
+}
+
+@media (max-width: 1024px) {
+  .gallery-item {
+    width: 45%; 
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    width: 100%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .questions .tag-line {
+    width: 100%; 
+    font-size: .7rem;
+    
+  }
 }
 
 .footer .footer-container{
