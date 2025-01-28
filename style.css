@@ -1211,6 +1211,9 @@ margin: 30px 0;
   .about-us .box{
     flex-wrap: wrap;
   }
+  .about-us p {
+    font-size: 16px;
+  }
 
 }
 
@@ -1225,7 +1228,7 @@ margin: 30px 0;
     max-width: 300px;
   }
   .about-content p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
