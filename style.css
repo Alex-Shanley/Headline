@@ -413,6 +413,12 @@ nav .sidebar {
   .section-divider hr {
     width: 95%; 
   }
+
+  .sub-head  {
+    font-size: 12px;
+    padding: 0px 30px 0px 30px;
+
+  }
 }
 
 
