@@ -1436,7 +1436,63 @@ font-size: 16px;
   text-align: center;
   padding: 2rem 0;
 }
+@media (max-width: 1024px) {
+  .cs-info {
+    flex-direction: column;
+    gap: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
+.Phone-No {
+  font-size: 14px;
+}
+}
+
+
+@media (max-width: 768px) {
+  .cs-info {
+    flex-direction: column;
+    gap: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.Phone-No {
+  font-size: 14px;
+}
+.cs-line{
+  max-width: 80%;
+}
+.Phone-No {
+  font-size: 14px;
+}
+.cs-background h2{
+  font-size: 28px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+
+}
+.cs-background h3{
+  font-size: 18px;
+  text-align: center;
+  padding-top: 0px;
+
+}
+.cs-tex{
+  font-size: 14px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.cs-body{
+  margin-bottom: 100px;
+}
+
+
+}
 @media (max-width: 480px) {
   .cs-info {
     flex-direction: column;
