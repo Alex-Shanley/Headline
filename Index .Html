@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the latest trending albums, discover popular artists, or enjoy timeless retro and jazz hits">
+    <meta name="keywords" content="Jazz songs, retro songs, Trending Artist, New Album Releases,Artist spotlight">
+    <meta name="author" content="Alex Shanley">
+
+    <title>Headline</title>
+
+    <!--Css design file link-->
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Css design file link-->
+
+  </head>
+  <body>
+
+<!--Navbar start-->
+
+<nav class="nav">
+  <ul>
+    <li class="logo">
+        <a href="#">
+            <img src="Images/Logo .png" class="logo-image">
+        </a>
+    </li>
+    <li class="hideOnMobile"><a href="">Home</a></li>
+    <li class="hideOnMobile"><a href="About.html">About Us</a></li>
+    <li class="hideOnMobile"><a href="#">Artist Spotlight</a></li>
+    <li class="hideOnMobile"><a href="Contact.html">Contact</a></li>
+    <li class="menu-button" onclick="showSidebar()">
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+            </svg>
+        </a>
+    </li>
+</ul>
+
+
+<ul class="sidebar">
+  <li onclick= hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">Artist spoltight</a></li>
+  <li><a href="#">Contact</a></li>
+</ul>
+
+</nav>
+
+<!--Navbar End-->
+
+    
+<!--Hero Section start-->
+
+<section class="home" id="home">
+  <video autoplay muted loop class="video-background">
+    <source src="Video/blue-abstract-background-with-colorful-light-trail-2024-02-28-05-38-13-utc.mov" type="video/mp4">
+  </video>
+
+  <div class="content">
+    <p>Find the Sound</p>
+    <p>You Love</p>
+    <div class="tag-line">
+      <p>Love the Sound, Live The Beat</p>
+    </div>
+    <a href="#" class="btn">Play Now</a>
+  </div>
+</section>
+
+<!--Hero Section End-->
+
+<!--Trending Songs Start-->
+
+
+<h5 class="category">TRENDING <span class="blue">SONGS</span></h5>
+
+<section class="trending">
+<!-- A Bar Song (Tipsy) Start -->
+<div class="picture">
+  <div class="cover">
+    <img src="Images/Shaboozey.png" class="image-style">
+    <a href="https://www.youtube.com/watch?v=t7bQwwqW-Hc" target="_blank" class="play-link">
+      <div class="play-icon">
+        <i class="fa fa-play"></i>
+      </div>
+    </a>
+  </div>
+  <div>
+    <div class="title">A Bar Song (Tipsy)</div>
+    <small class="text-muted">Shaboozey</small>
+  </div>
+</div>
+<!-- A Bar Song (Tipsy) End -->
+
+<!-- Birds of a Feather Start -->
+<div class="picture">
+  <div class="cover">
+    <img src="Images/Billie Eilish.png" class="image-style">
+    <a href="https://www.youtube.com/watch?v=V9PVRfjEBTI" target="_blank" class="play-link">
+      <div class="play-icon">
+        <i class="fa fa-play"></i>
+      </div>
+    </a>
+  </div>
+  <div>
+    <div class="title">Birds of a Feather</div>
+    <small class="text-muted">Billie Eilish</small>
+  </div>
+</div>
+<!-- Birds of a Feather End -->
+
+<!-- Espresso Start -->
+<div class="picture">
+  <div class="cover">
+    <img src="Images/Sabrina Carpenter.png" class="image-style">
+    <a href="https://www.youtube.com/watch?v=eVli-tstM5E" target="_blank" class="play-link">
+      <div class="play-icon">
+        <i class="fa fa-play"></i>
+      </div>
+    </a>
+  </div>
+  <div>
+    <div class="title">Espresso</div>
+    <small class="text-muted">Sabrina Carpenter</small>
+  </div>
+</div>
+<!-- Espresso End -->
+
+<!-- Good Luck, Babe! Start -->
+<div class="picture">
+  <div class="cover">
+    <img src="Images/Chappell Roan.png" class="image-style">
+    <a href="https://www.youtube.com/watch?v=1RKqOmSkGgM&list=RD1RKqOmSkGgM&start_radio=1" target="_blank" class="play-link">
+      <div class="play-icon">
+        <i class="fa fa-play"></i>
+      </div>
+    </a>
+  </div>
+  <div>
+    <div class="title">Good Luck, Babe!</div>
+    <small class="text-muted">Chappell Roan</small>
+  </div>
+</div>
+<!-- Good Luck, Babe! End -->
+
+<!-- Too Sweet Start -->
+<div class="picture">
+  <div class="cover">
+    <img src="Images/Hozier.png" class="image-style">
+    <a href="https://www.youtube.com/watch?v=NTpbbQUBbuo" target="_blank" class="play-link">
+      <div class="play-icon">
+        <i class="fa fa-play"></i>
+      </div>
+    </a>
+  </div>
+  <div>
+    <div class="title">Too Sweet</div>
+    <small class="text-muted">Hozier</small>
+  </div>
+</div>
+<!-- Too Sweet End -->
+
+
+
+
+</section>
+
+
+<div class="section-divider">
+  <hr>
+</div>
+
+<!--Trending Songs End-->
+
+
+  <h5 class="header2">NEW ALBUM <span class="blue"> RELEASE</span></h5>
+  <p class="sub-head">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+<!--New album start-->
+
+<div class="new">
+  <!-- Card 1 -->
+  <a href="https://open.spotify.com/album/0U28P0QVB1QRxpqp5IHOlH" target="_blank" >
+  <div class="album">
+    <div class="album-image">
+      <img src="Images/CHROMAKOPIA.png" alt="Album Image">
+      <div class="text-overlay">
+        <p>Tyler, The Creator</p>
+        <h2> Chromakopia</h2>
+      </div>
+    </div>
+  </div>
+</a>
+
+
+  <!-- Card 2 -->
+  <a href="https://open.spotify.com/album/0hvT3yIEysuuvkK73vgdcW" target="_blank" >
+  <div class="album">
+    <div class="album-image">
+      <img src="Images/GNX.png" alt="Album Image">
+      <div class="text-overlay">
+        <p>Kendrick Lamar</p>
+        <h2>GNX</h2>
+      </div>
+    </div>
+  </div>
+</a>
+
+  <!-- Card 3 -->
+  <a href="https://open.spotify.com/album/7aJuG4TFXa2hmE4z1yxc3n" target="_blank" >
+  <div class="album">
+    <div class="album-image">
+      <img src="Images/HIT ME HARD AND SOFT.png" alt="Album Image">
+      <div class="text-overlay">
+        <p>Billie Eilish</p>
+        <h2>Hit Me Hard and Soft</h2>
+      </div>
+    </div>
+  </div>
+</a>
+
+
+  <!-- Card 4 -->
+  <a href="https://open.spotify.com/album/71PfP4E9roOXAudea1aPGw" target="_blank" >
+  <div class="album">
+    <div class="album-image">
+      <img src="Images/eternal sunshine.png" alt="Album Image">
+      <div class="text-overlay">
+        <p>Ariana Grande</p>
+        <h2>eternal sunshine</h2>
+      </div>
+    </div>
+  </div>
+</a>
+
+  <!-- Card 5 -->
+  <a href="https://open.spotify.com/album/6BzxX6zkDsYKFJ04ziU5xQ" target="_blank" >
+  <div class="album">
+    <div class="album-image">
+      <img src="Images/COWBOY CARTER.png" alt="Album Image">
+      <div class="text-overlay">
+        <p>Beyoncé</p>
+        <h2>Cowboy Carter</h2>
+      </div>
+    </div>
+  </div>
+</a>
+
+  <!-- Card 6 -->
+  <a href="https://open.spotify.com/album/6PdPOv5ybKZ9ZuGMk5iGZd" target="_blank" >
+  <div class="album">
+    <div class="album-image">
+      <img src="Images/Wall of Eyes.png" alt="Album Image">
+      <div class="text-overlay">
+        <p>The Smile</p>
+        <h2>Wall of Eyes</h2>
+      </div>
+    </div>
+  </div>
+</a>
+
+
+  <!-- Card 7 -->
+  <a href="https://open.spotify.com/album/1Mo92916G2mmG7ajpmSVrc" target="_blank" >
+  <div class="album">
+    <div class="album-image">
+      <img src="Images/Radical Optimism.png" alt="Album Image">
+      <div class="text-overlay">
+        <p>Dua Lipa</p>
+        <h2>Radical Optimism</h2>
+      </div>
+    </div>
+  </div>
+</a>
+
+  <!-- Card 8 -->
+   <a href="https://open.spotify.com/album/3iPSVi54hsacKKl1xIR2eH" target="_blank" >
+  <div  class="album">
+    <div class="album-image" >
+      <img src="Images/Short n_ Sweet.png" alt="Album Image" >
+      <div class="text-overlay">
+        <p>Sabrina Carpenter</p>
+        <h2>Short n' Sweet</h2>
+      </div>
+    </div>
+  </div>
+</a>
+
+
+</div>
+
+<!--New album End-->
+
+
+<!--Taylor swift start -->
+
+<section class="taylor" id="taylor">
+  <div class="left-column">
+    <div class="content">
+      <h3>TAYLOR SWIFT</h3>
+      <p>THE ERAS TOUR | Trailer</p>
+    </div>
+  </div>
+  <div class="right-column">
+    <img src="Images/cirlce play.png" alt="Album Image" >
+    </i>
+  </div>
+</section>
+
+
+<!--Retro songs Start-->
+
+
+<h5 class="category">RETRO <span class="blue">SONGS</span></h5>
+
+<section class="trending">
+
+<!--Eye of the Tiger Start-->
+
+  
+  <div class="picture">
+    
+    <div class="cover">
+
+      <!--Image start-->
+
+<img src="Images/Eye of the Tiger.png"  class="image-style">
+
+<!--Image End-->
+
+<!--Play Icon start-->
+<a href="https://www.youtube.com/watch?v=btPJPFnesV4" target="_blank" class="play-link">
+  <div class="play-icon">
+    <i class="fa fa-play"></i>
+  </div>
+</a>
+</div>
+<!--Play Icon end-->
+<div>  
+  <div class="title">
+    Eye of the Tiger
+    </div>
+    <small class="text-muted">
+      Survivor
+    </small>
+  </div>
+</div>
+  </div>
+
+
+  <!--TOTO AFRICA-->
+
+  <div class="picture">
+    
+    <div class="cover">
+      
+      <!--Image start-->
+
+<img src="Images/Toto africa.png"  class="image-style">
+
+<!--Image End-->
+
+<!--Play Icon start-->
+<a href="https://www.youtube.com/watch?v=FTQbiNvZqaY" target="_blank" class="play-link">
+  <div class="play-icon">
+    <i class="fa fa-play"></i>
+  </div>
+</a>
+</div>
+<!--Play Icon end-->
+<div>  
+  <div class="title">
+    Africa
+    </div>
+    <small class="text-muted">
+      Toto
+    </small>
+  </div>
+</div>
+  </div>
+
+<!--Birds of a Feather  end-->
+
+
+
+
+ <!--9 to 5-->
+
+ <div class="picture">
+    
+  <div class="cover">
+    
+    <!--Image start-->
+
+<img src="Images/9 to 5.png"  class="image-style">
+
+<!--Image End-->
+
+<!--Play Icon start-->
+<a href="https://www.youtube.com/watch?v=UbxUSsFXYo4" target="_blank" class="play-link">
+<div class="play-icon">
+  <i class="fa fa-play"></i>
+</div>
+</a>
+</div>
+<!--Play Icon end-->
+<div>  
+<div class="title">
+  9 to 5
+  </div>
+  <small class="text-muted">
+    Dolly Parton
+  </small>
+</div>
+</div>
+</div>
+
+<!--Espresso  end-->
+
+
+
+
+ <!--I'm So Excited Start-->
+
+ <div class="picture">
+    
+  <div class="cover">
+    
+    <!--Image start-->
+
+<img src="Images/I_m So Excited.png"  class="image-style">
+
+<!--Image End-->
+
+<!--Play Icon start-->
+<a href="https://www.youtube.com/watch?v=8iwBM_YB1sE" target="_blank" class="play-link">
+<div class="play-icon">
+  <i class="fa fa-play"></i>
+</div>
+</a>
+</div>
+<!--Play Icon end-->
+<div>  
+<div class="title">
+  I'm So Excited
+  </div>
+  <small class="text-muted">
+    The Pointer Sisters
+  </small>
+</div>
+</div>
+</div>
+
+<!--I'm So Excited end-->
+
+
+
+<!--Down Under Start-->
+
+<div class="picture">
+    
+  <div class="cover">
+    
+    <!--Image start-->
+
+<img src="Images/Down Under.png" class="image-style">
+
+<!--Image End-->
+
+<!--Play Icon start-->
+<a href="https://www.youtube.com/watch?v=XfR9iY5y94s" target="_blank" class="play-link">
+<div class="play-icon">
+  <i class="fa fa-play"></i>
+</div>
+</a>
+</div>
+<!--Play Icon end-->
+<div>  
+<div class="title">
+  Down Under
+  </div>
+  <small class="text-muted">
+    Men at Work
+  </small>
+</div>
+</div>
+</div>
+
+<!--DOWN UNDER end-->
+
+
+
+</section>
+
+
+<div class="section-divider">
+  <hr>
+</div>
+
+
+
+<!--JAZZ SONGS Start-->
+
+
+<h5 class="category">JAZZ <span class="blue">SONGS</span></h5>
+
+<section class="trending">
+
+<!--Take Five  Start-->
+
+  
+  <div class="picture">
+    
+    <div class="cover">
+
+      <!--Image start-->
+
+<img src="Images/Take Five.png" class="image-style">
+
+<!--Image End-->
+
+<!--Play Icon start-->
+<a href="https://www.youtube.com/watch?v=vmDDOFXSgAs" target="_blank" class="play-link">
+  <div class="play-icon">
+    <i class="fa fa-play"></i>
+  </div>
+</a>
+</div>
+<!--Play Icon end-->
+<div>  
+  <div class="title">
+    Take Five 
+    </div>
+    <small class="text-muted">
+      Dave Brubeck
+    </small>
+  </div>
+</div>
+  </div>
+
+
+  <!--So What-->
+
+  <div class="picture">
+    
+    <div class="cover">
+      
+      <!--Image start-->
+
+<img src="Images/So What.png"  class="image-style">
+
+<!--Image End-->
+
+<!--Play Icon start-->
+<a href="https://www.youtube.com/watch?v=zqNTltOGh5c" target="_blank" class="play-link">
+  <div class="play-icon">
+    <i class="fa fa-play"></i>
+  </div>
+</a>
+</div>
+<!--Play Icon end-->
+<div>  
+  <div class="title">
+    So What
+    </div>
+    <small class="text-muted">
+      Miles Davis
+    </small>
+  </div>
+</div>
+  </div>
+
+<!--so what end-->
+
+
+
+
+ <!--Take The A Train Start-->
+
+ <div class="picture">
+    
+  <div class="cover">
+    
+    <!--Image start-->
+
+<img src="Images/Take The A Train.png"  class="image-style">
+
+<!--Image End-->
+
+<!--Play Icon start-->
+<a href="https://www.youtube.com/watch?v=D6mFGy4g_n8" target="_blank" class="play-link">
+<div class="play-icon">
+  <i class="fa fa-play"></i>
+</div>
+</a>
+</div>
+<!--Play Icon end-->
+<div>  
+<div class="title">
+  Take The A Train
+  </div>
+  <small class="text-muted">
+    Duke Ellington
+  </small>
+</div>
+</div>
+</div>
+
+<!--Take The A Train  end-->
+
+
+
+
+ <!--Round Midnight Start-->
+
+ <div class="picture">
+    
+  <div class="cover">
+    
+    <!--Image start-->
+
+<img src="Images/Round Midnight.png"  class="image-style">
+
+<!--Image End-->
+
+<!--Play Icon start-->
+<a href="https://www.youtube.com/watch?v=-yg7aZpIXRI" target="_blank" class="play-link">
+<div class="play-icon">
+  <i class="fa fa-play"></i>
+</div>
+</a>
+</div>
+<!--Play Icon end-->
+<div>  
+<div class="title">
+  Round Midnight
+  </div>
+  <small class="text-muted">
+    Thelonious Monk
+  </small>
+</div>
+</div>
+</div>
+
+<!--Round Midnight! end-->
+
+
+
+<!--My Favourite Things Start-->
+
+<div class="picture">
+    
+  <div class="cover">
+    
+    <!--Image start-->
+
+<img src="Images/My Favourite Things.png"  class="image-style">
+
+<!--Image End-->
+
+<!--Play Icon start-->
+<a href="https://www.youtube.com/watch?v=qWG2dsXV5HI" target="_blank" class="play-link">
+<div class="play-icon">
+  <i class="fa fa-play"></i>
+</div>
+</a>
+</div>
+<!--Play Icon end-->
+<div>  
+<div class="title">
+  My Favourite Things
+  </div>
+  <small class="text-muted">
+    John Coltrane
+  </small>
+</div>
+</div>
+</div>
+
+<!--My Favourite Things end-->
+
+
+
+</section>
+
+
+
+
+<!--Jazz Songs End-->
+
+<!-- Gallery Section Start -->
+<section class="gallery">
+  <div class="container">
+    <!-- Gallery Filter -->
+    <h5 class="gallery-header">PHOTO <span class="blue">GALLERY</span></h5>
+    <div class="gallery-filter">
+      <span class="filter-item active" data-filter="All">All</span>
+      <span class="filter-item" data-filter="Outdoors">Outdoors</span>
+      <span class="filter-item" data-filter="Indoors">Indoors</span>
+      <span class="filter-item" data-filter="Artists">Artists</span>
+    </div>
+
+    <!-- Gallery Items -->
+    <div class="row">
+      <!-- Gallery Item Start -->
+      <div class="gallery-item Outdoors">
+        <div class="gallery-item-inner">
+          <img src="Images/Image 1.png" alt="Outdoors">
+        </div>
+      </div>
+      <!-- Gallery Item End -->
+
+      <!-- Gallery Item Start -->
+      <div class="gallery-item Indoors">
+        <div class="gallery-item-inner">
+          <img src="Images/Image 2.png" alt="Indoors">
+        </div>
+      </div>
+      <!-- Gallery Item End -->
+
+      <!-- Gallery Item Start -->
+      <div class="gallery-item Indoors">
+        <div class="gallery-item-inner">
+          <img src="Images/Image 3.png" alt="Indoors">
+        </div>
+      </div>
+      <!-- Gallery Item End -->
+
+      <!-- Gallery Item Start -->
+      <div class="gallery-item Artists">
+        <div class="gallery-item-inner">
+          <img src="Images/Image 4.png" alt="Artists">
+        </div>
+      </div>
+      <!-- Gallery Item End -->
+
+      <!-- Gallery Item Start -->
+      <div class="gallery-item Outdoors">
+        <div class="gallery-item-inner">
+          <img src="Images/Image 5.png" alt="Outdoors">
+        </div>
+      </div>
+      <!-- Gallery Item End -->
+
+      <!-- Gallery Item Start -->
+      <div class="gallery-item Artists">
+        <div class="gallery-item-inner">
+          <img src="Images/Image 6.png" alt="Artists">
+        </div>
+      </div>
+      <!-- Gallery Item End -->
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Pricing Section -->
+<section class="pricing">
+  <div class="pricing-container">
+    <h3 class="Pricing header">Pricing</h3>
+    <p class="pricing-subheading">
+      Start free and scale while you grow. No hidden fees. Unlimited users for free.
+    </p>
+    <div class="pricing-grid">
+      <!-- Pricing Card 1 -->
+      <div class="card bg-light">
+        <div class="pricing-card-header">
+          <h4 class="Simple header">Simple</h4>
+          <p class="Simple sub head">
+            Keep track of your contacts, gain valuable insights, analyze live data and performance metrics.
+          </p>
+          <p class="Cost"> Free <span class="grey"> *No credit card needed </span> 
+          </p>
+        </div>
+        <div class="Simple text">
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li><i class="fas fa-check"></i>Track key performance indicators</li>
+            <li><i class="fas fa-check"></i>Track key performance indicators</li>
+            <li><i class="fas fa-check"></i>Schedule appointments</li>
+            <li><i class="fas fa-check"></i>Organize, delegate and keep track of tasks</li>
+          </ul>
+          <a href="#" class="btn-block light">Get started</a>
+        </div>
+      </div>
+      <!-- Pricing Card 2 -->
+      <div class="card bg-blue">
+        <div class="pricing-card-header">
+          <h4 class="Premium header">Premium</h4>
+          <p class="Simple sub head">
+            Keep track of your contacts, gain valuable insights, analyze live data and performance metrics.
+          </p>
+          <p class="Premium Cost"> €40 <span class="White">/month</span> 
+          </p>
+        </div>
+        <div class="Blue text">
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li><i class="fas fa-check"></i>Real-time Monitoring</li>
+            <li><i class="fas fa-check"></i>Track key performance indicators</li>
+            <li><i class="fas fa-check"></i>Schedule appointments</li>
+            <li><i class="fas fa-check"></i>Organize, delegate and keep track of tasks</li>
+          </ul>
+          <a href="#" class="btn-block white">Get started</a>
+        </div>
+      </div>
+    </div>
+    <p class="disclaimer">
+      All prices are in EURO and charged per month with applicable taxes added at the checkout.
+    </p>
+  </div>
+</section>
+
+
+
+
+<!--Questions-->
+
+
+
+<section class="questions" id="questions">
+  <video autoplay muted loop class="questions-background">
+    <source src="Video/data-science-background-blue-abstract-digital-futu-2024-12-04-05-36-47-utc (1).mov" type="video/mp4">
+  </video>
+
+  <div class="content">
+    <p>Questions?</p>
+    <div class="tag-line">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do  <br> tempor incididunt ut labore et dolore magna aliqua</p>
+    </div>
+    <a href="Contact.html" class="btn">Contact Us</a>
+  </div>
+</section>
+
+<!--Questions-->
+
+<!--Footer start-->
+
+<footer class="footer">
+  <div class="footer-container">
+      <div class="footer-row">
+          <div class="footer-colum">
+              <h4>headline</h4>
+
+              <p>
+
+                  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. dolore magna aliqua.
+
+
+              </p>
+          </div>
+
+<!--second footer colum-->
+<div class="footer-colum">
+<h4>Quick Links</h4>
+
+<ul>
+
+  <li><a href="">Home</a></li>
+  <li><a href="">About Us</a></li>
+  <li><a href="">Artist Spotlight</a></li>
+  <li><a href="">Contact</a></li>
+
+
+
+</ul>
+</div>
+
+<!--third footer colum-->
+
+<div class="footer-colum">
+<h4>Contact us</h4>
+
+<ul>
+  <li><a href="tel:+0821234567"><i class="fas fa-phone"></i> (082) 1234 567</a></li>
+  <li><a href="mailto:info@headline.com"><i class="fas fa-envelope"></i> info@headline.com</a></li>
+  <li><a><i class="fas fa-map-marker-alt"></i> Dublin, Ireland</a></li>
+</ul>
+
+</div>
+
+
+<!--fourth footer colum-->
+
+<div class="footer-colum">
+<h4>Subscribe</h4>
+
+<form action="">
+  <input type="email" placeholder="Enter your email" class="input-email">
+  <input type="Submit" value="Submit" class="input-submit">
+</form>
+
+</div>
+
+
+      </div>
+
+  </div>
+
+
+</footer>
+
+
+
+<!--Footer End-->
+
+
+
+
+
+
+
+
+<div class="Copyright">
+  <div class="gradient-bar"></div>
+  <div class="copyright-text">Copyright © 2024 Headline Designed by Alex Shanley️</div>
+</div>
+
+  </div>
+</div>
+<script src="script.js"></script>
+
+
+
+
+
+  </body>
+</html>
