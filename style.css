@@ -1595,6 +1595,17 @@ background-color: #24ABCF;
 margin: 40px auto; 
 }
 
+.head th {
+  color: #0087E3;
+  font-weight: 300;
+  font-size: x-large;
+}
+
+.t-text{
+  color: #2F3247;
+  font-size: large;
+}
+
 td img {
   width: 100px;
   height: 100px;
@@ -1619,8 +1630,3 @@ table, th, td {
   background-color: #0087E3;
 }
 
-.head{
-  color: #0087E3;
-  font-size: x-large;
-  font-weight: 200;
-}
