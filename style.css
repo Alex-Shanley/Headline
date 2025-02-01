@@ -1612,3 +1612,7 @@ td img {
 table, th, td {
   padding: 1rem;
 }
+
+main.table{
+  width: 82vh;
+}
