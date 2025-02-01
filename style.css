@@ -1597,8 +1597,9 @@ margin: 40px auto;
 
 .head th {
   color: #0087E3;
-  font-weight: 300;
-  font-size: x-large;
+  font-weight: 400;
+  font-size: large;
+
 }
 
 .t-text{
@@ -1611,6 +1612,8 @@ td img {
   height: 100px;
   margin-right: .5rem;
   vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .table {
@@ -1630,3 +1633,9 @@ table, th, td {
   background-color: #0087E3;
 }
 
+.spotlight {
+  font-size: xx-large;
+    font-weight: 500;
+    color: #2F3247;
+    padding-bottom: 24px;
+}
