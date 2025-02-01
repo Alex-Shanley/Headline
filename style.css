@@ -1618,3 +1618,9 @@ table, th, td {
   height: 10%;
   background-color: #0087E3;
 }
+
+.head{
+  color: #0087E3;
+  font-size: x-large;
+  font-weight: 200;
+}
