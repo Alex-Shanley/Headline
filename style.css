@@ -1600,3 +1600,7 @@ td img {
   height: 100px;
   margin-right: .5rem;
 }
+
+.table {
+  justify-content: center;
+}
