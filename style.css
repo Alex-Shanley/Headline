@@ -1604,7 +1604,11 @@ margin: 40px auto;
 
 .t-text{
   color: #2F3247;
-  font-size: large;
+  font-size: 18px;
+}
+
+.divider td {
+  border-top: .5px solid #0087E3; 
 }
 
 td img {
@@ -1621,9 +1625,11 @@ td img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
 }
 
 table, th, td {
+  border-collapse: collapse;
   padding: 1rem 8rem .5rem 8rem;
 }
 
@@ -1640,3 +1646,7 @@ table, th, td {
     padding-bottom: 24px;
 }
 
+
+.t-body {
+  background-color: #a8abaa1e;
+}
