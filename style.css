@@ -1607,17 +1607,14 @@ margin: 40px auto;
   font-size: 18px;
 }
 
-.divider td {
-  border-top: .5px solid #0087E3; 
-}
 
 td img {
-  width: 100px;
-  height: 100px;
-  margin-right: .5rem;
-  vertical-align: middle;
+  width: 120px;
+  height: 120px;
+  
   border-radius: 50%;
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  
 }
 
 .table {
@@ -1625,12 +1622,18 @@ td img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
 }
 
-table, th, td {
+th {
+  padding: 2rem 2rem 2rem 0rem;
+}
+
+table, td {
   border-collapse: collapse;
-  padding: 1rem 8rem .5rem 8rem;
+  padding: 1rem 0rem 1rem 8rem;
 }
 
 .theader{
@@ -1640,7 +1643,7 @@ table, th, td {
 }
 
 .spotlight {
-  font-size: xx-large;
+  font-size: 36px;
     font-weight: 500;
     color: #2F3247;
     padding-bottom: 24px;
@@ -1649,4 +1652,94 @@ table, th, td {
 
 .t-body {
   background-color: #a8abaa1e;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ebee;
+  color: #0087E3;
+}
+
+tbody tr:hover{
+  background-color: rgba(117, 117, 117, 0.126);
+  transform: scale(1.04);
+}
+
+tbody {
+  display: block; 
+  max-height: 60vh; 
+  overflow-y: auto; 
+}
+
+thead, tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  justify-content: center;
+}
+
+thead body {
+  width: 100%;
+}
+
+.avi-image {
+  width: 900px;
+  height: 700px;
+  object-fit: cover;
+}
+
+
+
+
+.Avicibox {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  min-height: 70vh; 
+  margin-top: 50px;
+ 
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+
+.Avicibox h1{
+  color: #2F3247;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.line {
+  border: none;
+    height: 4px;
+    background-color: #24ABCF;
+    width: 40%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.Avicibox .box {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  gap: 80px; 
+  max-width: 80%;
+  background-color: #a8abaa1e;
+  text-align: left;
+  border-radius: 13px;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Avicibox .box.reverse{
+  flex-direction: row-reverse;
+  
+}
+
+
+.Avicibox p{
+  color: #9D9D9D;
+  max-width: 600px;
+  margin: auto;
+  padding-right: 100px;
 }
