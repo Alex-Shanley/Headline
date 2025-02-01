@@ -1594,3 +1594,9 @@ height: 2px;
 background-color: #24ABCF;
 margin: 40px auto; 
 }
+
+td img {
+  width: 100px;
+  height: 100px;
+  margin-right: .5rem;
+}
