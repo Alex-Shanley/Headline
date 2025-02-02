@@ -1623,6 +1623,7 @@ td img {
   justify-content: center;
   align-items: center;
   padding-top: 50px;
+  padding-bottom: 100px;
   width: 80%;
   margin: 0 auto;
 }
